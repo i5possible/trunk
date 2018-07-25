@@ -1,0 +1,48 @@
+{
+      "package_name": "demo project",
+      "display_name": "HRP",
+      "config_dirs": [
+        "WEB-INF",
+        "WEB-INF/classes",
+        "WEB-INF/lib"
+      ],
+      "important_files": [
+        {
+          "file_path": "/opt/web-config/hrp/config/c3p0-config.properties",
+          "display_name": "HRP数据源配置",
+          "description": "配置HRP数据库IP、端口、实例名、用户和密码",
+          "type": "DB"
+        },
+        {
+          "file_path": "/opt/web-config/hrp/config/sys-config.xml",
+          "display_name": "成本系统跳转配置",
+          "description": "修改 NEW_SYS_ADDRESS 属性为现场hrp_web登陆地址",
+          "type": "IP"
+        }
+		  {
+          "file_path": "/HRP/WEB-INF/classes/datasource-config.properties",
+          "display_name": "HRP报表数据库配置",
+          "description": "配置HRP数据库IP、端口、实例名、用户和密码",
+          "type": "DB"
+        }
+		  {
+          "file_path": "/hrp_server/WEB-INF/classes/application-cfg.properties",
+          "display_name": "成本系统跳转配置",
+          "description": "修改 hrp_old_address 属性为HRP登陆地址",
+          "type": "IP"
+        }
+		  {
+          "file_path": "/hrp_server/WEB-INF/classes/datasource-config.properties",
+          "display_name": "成本系统数据库配置",
+          "description": "配置数据库IP、端口、实例名、用户和密码",
+          "type": "DB"
+        }
+			  {
+          "file_path": "/hrp_web/WEB-INF/resources/datasource.xml",
+          "display_name": "成本系统报表数据库配置",
+          "description": "配置数据库IP、端口、实例名、用户和密码",
+          "type": "DB"
+        }
+		  
+      ]
+  }
