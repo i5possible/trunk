@@ -1,0 +1,104 @@
+[
+  {
+    "package_name": "his",
+    "display_name": "云HIS应用",
+    "config_dirs": [
+      "WEB-INF/classes"
+    ],
+    "important_files": [
+      {
+        "file_path": "WEB-INF/classes/db.properties",
+        "display_name": "数据源配置",
+        "description": "配置HIS数据库IP、端口、实例名、用户和密码",
+        "type": "DB"
+      },
+      {
+        "file_path": "WEB-INF/classes/frReport.properties",
+        "display_name": "帆软服务地址",
+        "description": "配置帆软服务地址",
+        "type": "etc"
+      },
+      {
+        "file_path": "WEB-INF/classes/mc-config.properties",
+        "display_name": "监控中心配置",
+        "description": "配置监控中心IP、端口、agentId等",
+        "type": "etc"
+      },
+      {
+        "file_path": "WEB-INF/classes/oss-cfg.properties",
+        "display_name": "OSS配置",
+        "description": "配置OSS地址、帐号、名称等",
+        "type": "etc"
+      },
+      {
+        "file_path": "WEB-INF/classes/redis.properties",
+        "display_name": "redis配置",
+        "description": "配置redis地址、端口、用户名及密码等",
+        "type": "etc"
+      },
+      {
+        "file_path": "WEB-INF/classes/redis.properties",
+        "display_name": "redis配置",
+        "description": "配置redis地址、端口、用户名及密码等",
+        "type": "etc"
+      }
+    ]
+  },{
+    "package_name": "his-scheduled",
+    "display_name": "云HIS定时器应用",
+    "config_dirs": [
+      "WEB-INF/classes"
+    ],
+    "important_files": [
+      {
+        "file_path": "WEB-INF/classes/application.yml",
+        "display_name": "数据源配置",
+        "description": "配置HIS数据库IP、端口、实例名、用户和密码",
+        "type": "DB"
+      },
+      {
+        "file_path": "WEB-INF/classes/cron.properties",
+        "display_name": "定时任务配置",
+        "description": "配置HIS定时任务cron表达式",
+        "type": "etc"
+      },
+      {
+        "file_path": "WEB-INF/classes/emr.properties",
+        "display_name": "emr地址配置",
+        "description": "配置emr地址、用户名、密码等",
+        "type": "etc"
+      },
+      {
+        "file_path": "WEB-INF/classes/oneCard.properties",
+        "display_name": "一卡通地址",
+        "description": "配置一卡通地址、用户名、密码等",
+        "type": "etc"
+      },
+      {
+        "file_path": "WEB-INF/classes/task.properties",
+        "display_name": "定时器开关配置",
+        "description": "配置定时任务开启及关闭",
+        "type": "etc"
+      },
+      {
+        "file_path": "WEB-INF/classes/redis.properties",
+        "display_name": "redis配置",
+        "description": "配置redis地址、端口、用户名及密码等",
+        "type": "etc"
+      }
+    ]
+  },{
+    "package_name": "his_reportlet",
+    "display_name": "云HIS报表应用",
+    "config_dirs": [
+      "WEB-INF/resources"
+    ],
+    "important_files": [
+      {
+        "file_path": "WEB-INF/resources/datasource.xml",
+        "display_name": "数据源配置",
+        "description": "配置报表连接数据库IP、端口、实例名、用户和密码",
+        "type": "DB"
+      }    ]
+  }
+]
